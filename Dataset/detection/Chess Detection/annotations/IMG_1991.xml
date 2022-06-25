@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chess Detection</folder>
+	<filename>IMG_1991.JPG</filename>
+	<path>C:\Users\Gilbert\Google Drive\Brand\Datasets\Chess Detection\IMG_1991.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>2248</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white-rook</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1325</xmin>
+			<ymin>1112</ymin>
+			<xmax>1564</xmax>
+			<ymax>1378</ymax>
+		</bndbox>
+	</object>
+</annotation>

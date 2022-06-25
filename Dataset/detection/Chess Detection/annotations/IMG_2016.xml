@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chess Detection</folder>
+	<filename>IMG_2016.JPG</filename>
+	<path>C:\Users\Gilbert\Google Drive\Brand\Datasets\Chess Detection\IMG_2016.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>2248</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>black-bishop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2113</xmin>
+			<ymin>870</ymin>
+			<xmax>2534</xmax>
+			<ymax>1332</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chess Detection</folder>
+	<filename>IMG_1999.JPG</filename>
+	<path>C:\Users\Gilbert\Google Drive\Brand\Datasets\Chess Detection\IMG_1999.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>2248</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white-king</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1726</xmin>
+			<ymin>752</ymin>
+			<xmax>2129</xmax>
+			<ymax>1311</ymax>
+		</bndbox>
+	</object>
+</annotation>

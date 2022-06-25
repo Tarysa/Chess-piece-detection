@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Chess Detection</folder>
+	<filename>IMG_2055.JPG</filename>
+	<path>C:\Users\Gilbert\Google Drive\Brand\Datasets\Chess Detection\IMG_2055.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>2248</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white-rook</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1667</xmin>
+			<ymin>178</ymin>
+			<xmax>2374</xmax>
+			<ymax>1074</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black-rook</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1886</xmin>
+			<ymin>1080</ymin>
+			<xmax>2610</xmax>
+			<ymax>1854</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black-bishop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2836</xmin>
+			<ymin>852</ymin>
+			<xmax>3707</xmax>
+			<ymax>1678</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chess Detection</folder>
+	<filename>IMG_1992.JPG</filename>
+	<path>C:\Users\Gilbert\Google Drive\Brand\Datasets\Chess Detection\IMG_1992.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>2248</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white-knight</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1613</xmin>
+			<ymin>342</ymin>
+			<xmax>2001</xmax>
+			<ymax>1098</ymax>
+		</bndbox>
+	</object>
+</annotation>
