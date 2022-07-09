@@ -1,0 +1,1057 @@
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_setup.py:_flush():76] Configure stats pid to 10720
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_setup.py:_flush():76] Loading settings from C:\Users\thoma\.config\wandb\settings
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_setup.py:_flush():76] Loading settings from C:\Users\thoma\Documents\Chess-piece-detection\wandb\settings
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'yolov5-master\\train.py', 'program': 'C:\\Users\\thoma\\Documents\\Chess-piece-detection\\yolov5-master\\train.py'}
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_setup.py:_flush():76] Applying login settings: {'login_timeout': 30}
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_setup.py:_flush():76] Applying login settings: {'login_timeout': 30}
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_init.py:_log_setup():461] Logging user logs to C:\Users\thoma\Documents\Chess-piece-detection\wandb\run-20220709_122541-1p2kcidr\logs\debug.log
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_init.py:_log_setup():462] Logging internal logs to C:\Users\thoma\Documents\Chess-piece-detection\wandb\run-20220709_122541-1p2kcidr\logs\debug-internal.log
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_init.py:init():495] calling init triggers
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov5s.pt', 'cfg': '', 'data': 'C:\\Users\\thoma\\Documents\\Chess-piece-detection\\yolov5-master\\data\\chess.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 300, 'batch_size': 16, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'noplots': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'optimizer': 'SGD', 'sync_bn': False, 'workers': 8, 'project': 'yolov5-master\\runs\\train', 'name': 'exp', 'exist_ok': False, 'quad': False, 'cos_lr': False, 'label_smoothing': 0.0, 'patience': 100, 'freeze': [0], 'save_period': -1, 'local_rank': -1, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'save_dir': 'yolov5-master\\runs\\train\\exp2'}
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [wandb_init.py:init():548] starting backend
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-07-09 12:25:41,757 INFO    MainThread:10720 [backend.py:ensure_launched():217] starting backend process...
+2022-07-09 12:25:41,851 INFO    MainThread:10720 [backend.py:ensure_launched():222] started backend process with pid: 5052
+2022-07-09 12:25:41,851 INFO    MainThread:10720 [wandb_init.py:init():558] backend started and connected
+2022-07-09 12:25:41,851 INFO    MainThread:10720 [wandb_init.py:init():634] updated telemetry
+2022-07-09 12:25:41,954 INFO    MainThread:10720 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2022-07-09 12:25:44,324 INFO    MainThread:10720 [wandb_run.py:_on_init():1919] communicating current version
+2022-07-09 12:25:44,610 INFO    MainThread:10720 [wandb_run.py:_on_init():1923] got version response 
+2022-07-09 12:25:44,610 INFO    MainThread:10720 [wandb_init.py:init():700] starting run threads in backend
+2022-07-09 12:25:46,278 INFO    MainThread:10720 [wandb_run.py:_console_start():1893] atexit reg
+2022-07-09 12:25:46,279 INFO    MainThread:10720 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.WRAP
+2022-07-09 12:25:46,280 INFO    MainThread:10720 [wandb_run.py:_redirect():1803] Wrapping output streams.
+2022-07-09 12:25:46,283 INFO    MainThread:10720 [wandb_run.py:_redirect():1827] Redirects installed.
+2022-07-09 12:25:46,283 INFO    MainThread:10720 [wandb_init.py:init():732] run started, returning control to user process
+2022-07-09 12:25:46,292 INFO    MainThread:10720 [wandb_run.py:_config_callback():1131] config_cb None None {'data_dict': {'path': '../Dataset/detection', 'train': 'C:\\Users\\thoma\\Documents\\Chess-piece-detection\\Dataset\\detection\\images', 'val': 'C:\\Users\\thoma\\Documents\\Chess-piece-detection\\Dataset\\detection\\images', 'test': None, 'nc': 12, 'names': ['white-rook', 'white-knight', 'white-bishop', 'white-king', 'white-queen', 'white-pawn', 'black-rook', 'black-knight', 'black-bishop', 'black-king', 'black-queen', 'black-pawn']}}
+2022-07-09 18:35:22,169 INFO    MainThread:10720 [wandb_run.py:_finish():1680] finishing run tarysa/train/1p2kcidr
+2022-07-09 18:35:22,170 INFO    MainThread:10720 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2022-07-09 18:35:22,172 INFO    MainThread:10720 [wandb_run.py:_restore():1834] restore
+2022-07-09 18:35:25,273 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 325
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 74784763
+  total_bytes: 74784763
+}
+
+2022-07-09 18:35:25,617 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 74858491
+  total_bytes: 79783177
+}
+
+2022-07-09 18:35:26,377 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 79783177
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:26,479 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 79783177
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:26,590 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 79783177
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:26,698 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 80164918
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:26,808 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 80206577
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:26,918 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 80206577
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:27,027 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 80206577
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:27,138 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 80206577
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:27,248 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 80206577
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:27,358 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 337
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 80206577
+  total_bytes: 80206577
+}
+
+2022-07-09 18:35:32,478 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:35:37,593 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:35:42,704 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:35:47,820 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:35:52,935 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:35:58,047 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:03,166 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:08,278 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:13,401 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:18,526 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:23,639 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:28,763 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:33,888 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:39,005 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:44,122 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:49,245 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:54,354 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:36:59,479 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:04,601 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:09,713 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:14,825 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:19,946 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:25,056 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:30,178 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:35,296 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:40,419 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:45,531 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:50,645 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:37:55,763 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:00,873 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:05,993 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:11,102 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:16,217 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:21,333 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:26,442 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:31,562 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:36,677 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:41,787 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:46,911 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:52,035 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:38:57,151 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:02,265 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:07,381 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:12,498 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:17,613 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:22,734 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:27,857 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:32,970 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:38,083 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:43,194 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:48,303 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:53,423 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:39:58,540 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:03,659 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:08,778 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:13,889 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:19,008 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:24,125 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:29,236 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:34,355 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:39,476 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:44,593 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:49,710 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:54,824 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:40:59,942 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:05,055 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:10,179 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:15,292 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:20,410 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:25,529 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:30,641 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:35,756 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:40,867 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:45,984 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:51,102 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:41:56,227 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:01,340 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:06,460 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:11,569 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:16,688 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:21,804 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:26,922 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:32,039 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:37,160 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:42,280 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:47,391 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:52,500 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:42:57,623 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:02,734 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:07,849 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:12,962 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:18,079 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:23,200 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:28,317 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:33,434 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:38,553 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:43,675 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:48,793 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:53,917 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:43:59,030 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:04,140 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:09,256 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:14,368 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:19,491 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:24,604 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:29,723 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:34,840 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:39,951 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:45,062 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:50,184 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:44:55,298 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:00,407 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:05,517 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:10,638 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:15,750 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:20,859 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:25,970 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:31,084 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:36,202 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:41,320 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:46,436 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:51,545 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:45:56,656 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:01,765 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:06,886 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:12,007 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:17,130 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:22,250 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:27,366 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:32,484 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:37,603 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:42,726 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:47,845 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:52,968 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:46:58,088 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:03,204 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:08,321 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:13,436 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:18,547 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:23,665 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:28,775 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:33,885 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:39,003 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:44,119 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:49,239 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:54,354 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:47:59,473 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:04,588 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:09,707 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:14,820 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:19,944 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:25,056 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:30,177 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:35,302 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:40,414 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:45,526 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:50,646 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:48:55,767 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:00,878 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:05,995 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:11,112 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:16,229 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:21,342 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:26,464 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:31,583 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:36,704 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:41,825 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:46,943 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:52,068 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:49:57,178 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:02,289 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:07,398 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:12,522 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:17,639 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:22,755 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:27,865 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:32,986 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:38,100 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:43,224 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:48,334 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:53,457 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:50:58,572 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:03,691 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:08,813 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:13,935 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:19,055 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:24,172 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:29,293 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:34,406 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:39,528 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:44,639 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:49,758 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:54,872 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:51:59,981 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:05,090 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:10,209 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:15,331 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:20,447 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:25,558 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:30,680 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:35,795 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:40,915 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:46,034 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:51,146 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:52:56,271 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:01,385 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:06,495 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:11,610 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:16,723 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:21,843 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:26,953 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:32,078 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:37,192 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:42,313 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:47,433 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:52,551 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:53:57,663 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:02,788 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:07,913 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:13,031 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:18,141 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:23,263 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:28,387 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:33,499 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:38,623 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:43,734 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:48,846 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:53,957 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:54:59,067 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:04,183 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:09,304 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:14,427 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:19,539 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:24,661 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:29,770 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:34,892 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:40,013 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:45,123 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:50,236 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:55:55,356 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:00,476 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:05,592 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:10,713 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:15,838 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:20,949 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:26,065 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:31,188 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:36,309 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:41,426 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:46,550 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:51,660 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:56:56,784 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:01,896 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:07,009 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:12,132 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:17,256 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:22,380 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:27,504 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:32,619 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:37,733 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:42,844 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:47,967 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:53,078 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:57:58,196 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:03,307 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:08,429 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:13,538 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:18,650 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:23,775 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:28,897 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:34,010 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:39,125 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:44,249 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:49,360 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:54,483 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:58:59,594 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:04,707 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:09,821 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:14,935 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:20,058 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:25,181 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:30,291 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:35,401 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:40,513 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:45,637 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:50,760 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 18:59:55,884 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:01,008 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:06,127 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:11,251 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:16,363 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:21,485 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:26,608 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:31,733 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:36,844 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:41,961 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:47,085 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:52,208 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:00:57,332 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:02,441 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:07,566 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:12,679 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:17,802 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:22,924 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:28,048 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:33,169 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:38,294 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:43,418 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:48,537 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:53,660 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:01:58,773 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:03,886 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:08,998 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:14,118 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:19,239 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:24,353 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:29,464 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:34,588 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:39,708 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:44,826 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:49,937 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:02:55,050 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:00,164 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:05,286 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:10,409 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:15,533 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:20,655 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:25,778 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:30,898 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:36,008 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:41,131 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:46,251 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:51,361 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:03:56,481 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:01,592 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:06,707 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:11,831 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:16,942 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:22,054 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:27,165 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:32,278 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:37,403 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:42,528 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:47,652 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:52,777 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:04:57,889 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:03,015 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:08,140 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:13,263 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:18,374 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:23,489 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:28,600 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:33,711 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:38,824 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:43,939 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:49,050 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:54,161 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:05:59,284 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:04,394 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:09,518 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:14,633 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:19,744 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:24,855 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:29,966 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:35,079 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:40,193 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:45,304 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:50,430 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:06:55,554 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:00,679 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:05,791 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:10,903 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:16,013 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:21,129 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:26,244 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:31,356 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:36,469 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:41,594 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:46,708 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:51,819 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:07:56,932 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:02,046 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:07,158 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:12,271 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:17,394 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:22,505 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:27,630 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:32,754 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:37,870 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:42,982 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:48,095 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:53,205 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:08:58,331 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:03,444 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:08,555 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:13,670 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:18,794 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:23,913 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:29,032 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:34,155 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:39,267 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:44,392 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:49,517 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:54,633 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:09:59,748 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:04,868 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:09,979 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:15,104 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:20,226 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:25,349 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:30,474 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:35,592 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:40,711 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:45,834 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:50,944 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:10:56,064 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:01,178 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:06,303 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:11,425 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:16,543 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:21,667 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:26,790 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:31,908 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:37,033 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:42,145 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:47,259 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:52,373 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:11:57,493 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:02,618 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:07,741 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:12,865 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:17,988 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:23,109 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:28,222 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:33,344 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:38,465 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:43,589 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:48,699 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:53,809 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:12:58,932 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:04,055 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:09,175 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:14,299 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:19,419 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:24,543 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:29,666 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:34,777 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:39,888 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:45,009 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:50,134 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:13:55,246 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:00,366 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:05,487 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:10,599 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:15,713 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:20,826 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:25,951 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:31,065 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:36,178 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:41,298 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:46,421 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:51,537 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:14:56,652 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:01,764 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:06,878 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:11,998 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:17,123 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:22,244 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:27,358 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:32,468 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:37,585 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:42,700 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:47,814 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:52,930 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:15:58,041 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:03,154 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:08,269 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:13,382 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:18,507 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:23,630 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:28,742 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:33,852 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:38,967 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:44,084 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:49,195 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:54,307 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:16:59,417 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:04,536 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:09,648 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:14,771 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:19,891 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:25,017 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:30,129 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:35,255 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:40,370 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:45,482 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:50,595 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:17:55,721 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:00,845 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:05,967 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:11,079 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:16,189 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:21,304 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:26,415 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:31,540 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:36,661 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:41,786 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:46,900 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:52,025 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:18:57,151 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:02,274 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:07,387 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:12,498 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:17,620 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:22,741 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:27,863 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:32,986 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:38,097 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:43,220 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:48,343 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:53,454 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:19:58,566 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:03,691 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:08,804 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:13,927 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:19,051 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:24,176 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:29,288 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:34,399 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:39,519 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:44,641 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:49,764 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:54,889 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:20:59,999 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:05,112 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:10,235 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:15,359 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:20,476 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:25,590 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:30,711 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:35,833 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:40,943 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:46,054 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:51,180 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:21:56,302 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:01,427 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:06,553 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:11,674 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:16,798 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:21,921 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:27,046 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:32,161 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:37,272 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:42,391 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:47,512 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:52,634 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:22:57,758 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:02,875 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:07,987 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:13,099 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:18,220 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:23,340 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:28,461 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:33,579 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:38,703 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:43,825 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:48,950 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:54,061 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:23:59,175 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:04,290 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:09,414 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:14,534 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:19,655 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:24,767 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:29,877 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:35,000 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:40,114 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:45,238 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:50,365 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:24:55,488 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:00,613 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:05,738 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:10,861 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:15,972 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:21,085 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:26,198 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:31,321 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:36,440 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:41,551 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:46,662 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:51,774 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:25:56,898 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:02,024 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:07,140 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:12,265 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:17,390 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:22,502 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:27,613 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:32,738 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:37,862 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:42,973 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:48,098 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:53,220 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:26:58,333 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:03,454 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:08,566 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:13,680 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:18,803 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:23,917 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:29,041 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:34,152 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:39,266 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:44,377 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:49,488 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:54,598 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:27:59,712 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:04,824 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:09,937 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:15,059 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:20,183 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:25,295 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:30,409 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:35,523 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:40,647 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:45,758 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:50,871 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:28:55,995 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:01,111 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:06,224 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:11,345 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:16,458 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:21,569 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:26,692 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:31,802 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:36,927 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:42,051 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:47,175 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:52,286 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:29:57,398 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:02,509 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:07,620 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:12,742 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:17,853 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:22,979 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:28,094 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:33,204 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:38,327 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:43,446 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:48,571 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:53,685 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:30:58,796 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:03,919 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:09,036 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:14,160 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:19,272 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:24,382 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:29,505 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:34,628 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:39,753 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:44,874 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:49,999 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:31:55,121 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:00,233 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:05,357 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:10,482 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:15,604 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:20,729 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:25,851 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:30,977 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:36,102 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:41,213 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:46,337 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:51,447 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:32:56,573 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:01,698 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:06,820 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:11,943 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:17,063 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:22,186 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:27,311 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:32,434 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:37,547 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:42,658 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:47,771 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:52,895 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:33:58,017 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:03,138 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:08,260 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:13,384 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:18,496 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:23,613 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:28,726 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:33,837 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:38,961 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:44,072 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:49,196 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:54,309 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:34:59,434 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:04,556 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:09,681 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:14,806 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:19,931 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:25,045 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:30,155 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:35,281 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:40,392 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:45,518 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:50,632 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:35:55,756 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:00,867 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:05,977 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:11,088 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:16,200 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:21,314 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:26,440 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:31,561 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:36,674 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:41,785 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:46,898 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:52,016 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:36:57,129 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:02,240 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:07,353 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:12,468 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:17,583 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:22,706 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:27,832 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:32,943 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:38,057 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:43,179 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:48,290 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:53,415 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:37:58,526 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:03,639 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:08,753 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:13,863 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:18,984 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:24,110 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:29,231 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:34,343 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:39,462 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:44,574 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:49,689 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:54,799 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:38:59,924 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:05,038 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:10,156 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:15,275 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:20,388 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:25,511 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:30,622 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:35,737 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:40,861 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:45,982 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:51,106 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:39:56,229 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:01,350 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:06,462 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:11,586 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:16,705 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:21,830 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:26,954 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:32,065 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:37,186 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:42,307 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:47,430 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:52,545 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:40:57,656 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:02,766 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:07,877 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:12,997 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:18,115 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:23,233 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:28,357 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:33,482 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:38,607 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:43,731 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:48,855 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:53,980 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:41:59,090 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:04,210 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:09,322 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:14,432 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:19,542 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:24,655 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:29,780 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:34,901 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:40,024 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:45,144 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:50,265 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:42:55,387 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:00,511 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:05,625 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:10,749 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:15,873 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:20,994 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:26,116 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:31,241 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:36,362 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:41,485 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:46,610 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:51,721 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:43:56,843 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:01,966 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:07,091 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:12,215 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:17,328 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:22,441 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:27,563 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:32,675 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:37,785 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:42,897 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:48,012 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:53,127 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:44:58,252 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:03,373 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:08,498 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:13,610 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:18,723 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:23,838 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:28,963 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:34,079 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:39,189 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:44,313 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:49,438 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:54,563 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:45:59,687 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:04,812 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:09,929 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:15,053 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:20,178 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:25,289 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:30,401 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:35,514 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:40,631 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:45,756 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:50,881 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:46:56,003 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:01,126 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:06,240 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:11,365 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:16,490 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:21,605 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:26,721 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:31,834 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:36,945 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:42,057 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:47,170 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:52,283 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:47:57,408 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:02,533 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:07,644 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:12,762 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:17,872 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:22,987 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:28,111 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:33,224 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:38,337 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:43,447 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:48,566 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:53,684 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:48:58,799 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:03,914 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:09,032 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:14,146 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:19,260 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:24,381 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:29,501 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:34,617 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:39,738 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:44,857 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:49,976 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:49:55,099 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:00,219 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:05,335 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:10,457 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:15,574 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:20,698 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:25,819 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:30,943 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:36,068 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:41,189 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:46,311 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:51,432 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:50:56,552 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:01,675 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:06,792 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:11,916 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:17,039 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:22,153 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:27,269 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:32,390 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:37,510 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:42,631 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:47,749 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:52,871 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:51:57,995 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:52:03,118 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:52:08,240 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:52:13,363 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:52:18,482 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:52:23,605 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:52:28,716 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:52:33,833 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-09 19:52:38,952 INFO    MainThread:10720 [wandb_run.py:_on_finish():1991] got exit ret: None

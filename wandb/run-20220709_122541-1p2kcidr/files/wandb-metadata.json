@@ -1,0 +1,35 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.6",
+    "heartbeatAt": "2022-07-09T10:25:46.011667",
+    "startedAt": "2022-07-09T10:25:41.742182",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "16",
+        "--epochs",
+        "300",
+        "--data",
+        "chess.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\thoma\\Documents\\Chess-piece-detection\\yolov5-master\\train.py",
+    "codePath": "yolov5-master\\train.py",
+    "git": {
+        "remote": "https://github.com/Tarysa/Chess-piece-detection.git",
+        "commit": "93cfc740cf592f6506f721214951293f2fa6c20f"
+    },
+    "email": "37414362+Tarysa@users.noreply.github.com",
+    "root": "C:/Users/thoma/Documents/Chess-piece-detection",
+    "host": "LAPTOP-RS8B0QBK",
+    "username": "thoma",
+    "executable": "C:\\Users\\thoma\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+}
